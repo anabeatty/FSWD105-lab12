@@ -1,10 +1,11 @@
 {
-  "hosting": {
-    "public": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ]
-  }
+  "projects": {
+    "default": "production-replica-2"
+    "production": "production-replica-2"
+    "staging": "testing-replica-2"
+  },
+  
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
 }
